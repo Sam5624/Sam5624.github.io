@@ -23,17 +23,9 @@
 				font-family: "Arial";
 			}
         </style>
-		<script>
-			function clicked_on() {
-				document.getElementById('retreat').innerHTML='This is no longer an option';
-				document.getElementById('retreat').style.color = "red";
-				document.getElementById('retreat').style.cursor = "default";
-			}
-		</script>
     </head>
 <body>
     <div id="content" style="height: 5000px">
-		
 		<p style="font-size: 24px; color: #FE3F8F; font-family: Arial;"><b>&nbsp;
 			<script language="JavaScript">
 			var months=new Array(13);
@@ -59,16 +51,6 @@
 			document.write(date + ", " + year + "</left>");
 			</script>
 			<left></left>
-			</b></p>
-        <img src="harry_potter.png"></img><br>
-        <table style="border-spacing: 0px;">
-			<tr style="border-spacing: 0px;">
-				<td style="border: 5px solid white; border-spacing: 0px;">
-					<p><a style="color:greenyellow;" href="main">Onwards...</a></p>
-					<p style=""><a id="retreat" onclick="clicked_on()" style="color:grey; cursor: pointer;"><u id="retreatText">...Retreat</u></a></p>
-				</td>
-			</tr>
-		</table>
 	</div>
 </body>
 </html>
